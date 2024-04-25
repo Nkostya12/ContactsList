@@ -1,0 +1,10 @@
+CREATE SCHEMA contacts-list
+CREATE TABLE Contacts (
+
+id BIGINT PRIMARY KEY,
+firstname VARCHAR(255) NOT NULL,
+lastname VARCHAR9(255) NOT NULL,
+email VARCHAR(255) NOT NULL,
+phone VARCHAR(255) NOT NULL
+
+)
